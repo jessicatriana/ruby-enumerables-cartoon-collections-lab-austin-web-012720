@@ -21,5 +21,5 @@ end
 
 def find_the_cheese(array)   # returns the first element that is cheese
   cheese_types = ["cheddar", "gouda", "camembert"]  #the given array
-  array.find { |item| array.include?(cheese_types) } 
+  array.find { |item| cheese_types.include?(item) } 
 end

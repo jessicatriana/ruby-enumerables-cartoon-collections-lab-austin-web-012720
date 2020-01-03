@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
   end
 end
 
-def find_the_cheese(array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array)   # returns the first element that is cheese
+  cheese_types = ["cheddar", "gouda", "camembert"]  #the given array
   array.find { |item| item == cheese_types } 
 end
